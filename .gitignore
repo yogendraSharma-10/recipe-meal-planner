@@ -1,0 +1,64 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Dependency directories
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Production build directories
+client/build/
+client/dist/
+server/dist/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+.DS_Store?
+*.swp
+.Trashes
+ehthumbs.db
+Thumbs.db
+[Tt]humbs.db
+*.bak
+*.orig
+*~
+*.log
+*.tmp
+*.temp
+
+# Testing
+/coverage
+
+# Misc
+.npm
+.eslintcache
+.prettierrc.local
+
+# Next.js specific (if applicable, though not directly used here, good for future expansion)
+.next/
+
+# Docker (if applicable)
+.dockerignore
+Dockerfile.local
+docker-compose.local.yml
+
+# CI/CD (if applicable, though .github/workflows is usually committed)
+# .github/workflows/*.yml (if you wanted to ignore local changes to CI)
